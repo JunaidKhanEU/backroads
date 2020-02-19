@@ -2,13 +2,14 @@ import React from 'react'
 import Title from '../Title/Title'
 import styles from '../../../css/about.module.css'
 import img from '../../../images/defaultBcg.jpeg'
+
 const About = () => {
   return (
     <section className={styles.about}>
       <Title title='about' subTitle='us' />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
-          <img src={img} alt='about-image' />
+          <img src={img} alt='about' />
         </article>
         <article className={styles.aboutInfo}>
           <h4>explore the difference</h4>
