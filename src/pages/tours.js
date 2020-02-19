@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import Layout from '../components/Layout/Layout'
 
 class TourPage extends Component {
   render () {
     return (
-      <div>
+      <Layout>
         TourPage!!
-      </div>
+      </Layout>
     )
   }
 }

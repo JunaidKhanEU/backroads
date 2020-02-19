@@ -1,3 +1,9 @@
 import React from 'react'
-
-export default () => <div>Hello world!</div>
+import { Link } from 'gatsby'
+import Layout from '../components/Layout/Layout'
+export default () => (
+  <Layout>
+    Hello world!
+    <Link to='/blog/'>blog page</Link>
+  </Layout>
+)
