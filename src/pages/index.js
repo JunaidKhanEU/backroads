@@ -6,8 +6,6 @@ import { Link } from 'gatsby'
 import About from '../components/Home/About/About'
 export default () => (
   <Layout>
-    Hello from backRoads
-
     <SimpleHero>
       <Banner title='continue exploring' info='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident?'>
         <Link to='/tours' className='btn-white'>explore tours</Link>
