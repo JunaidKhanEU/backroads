@@ -15,13 +15,17 @@
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
+    "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.7",
+    "gatsby-plugin-styled-components": "^3.1.19",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.9.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.1",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "@types/styled-components": "^4.4.3",
     "babel-eslint": "^10.0.3",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"

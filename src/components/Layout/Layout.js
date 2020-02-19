@@ -13,11 +13,11 @@ class Layout extends React.Component {
 
   render () {
     return (
-      <>
+      <main>
         <Navbar />
         {this.props.children}
         <Footer />
-      </>
+      </main>
     )
   }
 }
