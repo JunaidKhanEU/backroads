@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../../css/footer.module.css'
-import links from '../../constants/links'
-import socialLinks from '../../constants/socialLinks'
+import styles from '../../../css/footer.module.css'
+import links from '../../../constants/links'
+import socialLinks from '../../../constants/socialLinks'
 import { Link } from 'gatsby'
 
 const Footer = () => {

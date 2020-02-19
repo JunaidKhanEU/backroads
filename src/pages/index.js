@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
-import Banner from '../components/Banner/Banner'
+import Banner from '../components/Layout/Banner/Banner'
 import { Link } from 'gatsby'
 import About from '../components/Home/About/About'
 import Services from '../components/Home/services/Services'

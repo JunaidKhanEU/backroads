@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Footer from '../Footer/Footer'
+import Navbar from './Navbar/Navbar'
 import './layout.css'
+import Footer from './Footer/Footer'
 
 class Layout extends React.Component {
   constructor (props) {
