@@ -5,7 +5,9 @@ class TourPage extends Component {
   render () {
     return (
       <Layout>
+
         TourPage!!
+
       </Layout>
     )
   }
