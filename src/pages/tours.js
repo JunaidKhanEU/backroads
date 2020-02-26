@@ -3,14 +3,15 @@ import Layout from '../components/Layout/Layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import StyledHero from '../components/Layout/StyledHero/StyledHero'
+import Tours from '../components/Tours/Tours'
 class TourPage extends Component {
   render () {
     return (
       <Layout className={this.props.className}>
         <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid}>
-
-        TourPage!!
+          <h1>TOurs</h1>
         </StyledHero>
+        <Tours />
 
       </Layout>
     )
