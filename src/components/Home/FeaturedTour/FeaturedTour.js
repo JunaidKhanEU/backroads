@@ -56,9 +56,3 @@ const FeaturedTour = () => {
 }
 
 export default FeaturedTour
-
-/*
-
- 
-
-*/
