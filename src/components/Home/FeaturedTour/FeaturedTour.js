@@ -27,7 +27,7 @@ const getFeaturedTour = graphql`
         }
         images{
           fluid{
-            ...GatsbyContentfulFluid_tracedSVG
+            ...GatsbyContentfulFluid
           }
         }
       }
