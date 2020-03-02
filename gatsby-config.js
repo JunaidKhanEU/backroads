@@ -14,7 +14,9 @@ module.exports = {
     title: 'BackRoads',
     description: 'Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure',
     author: 'Junaid Khan',
-    data: ['item1', 'item2']
+    twitterUsername: '@john_doe',
+    image: '/connectBcg.jpeg', // / reps static folder
+    siteUrl: 'https://backroad-react.netlify.com'
   },
   plugins: [
 
@@ -36,6 +38,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-transition-link'
+    'gatsby-plugin-transition-link',
+    'gatsby-plugin-react-helmet'
   ]
 }

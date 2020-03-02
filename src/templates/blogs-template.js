@@ -53,7 +53,6 @@ const BlogTemplate = (props) => {
             )
           }
 
-
         </section>
       </section>
     </Layout>

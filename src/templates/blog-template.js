@@ -15,7 +15,7 @@ const BlogTemplate = ({ data: { post } }) => {
         return (
           <div className='rich'>
             <h3>Awesome Image</h3>
-            <img width='' src={node.data.target.fields.file['en-US'].url} />
+            <img width='' src={node.data.target.fields.file['en-US'].url} alt='awesome' />
             <p>provided by John Doe</p>
           </div>
         )
