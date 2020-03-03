@@ -5,6 +5,7 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import styles from '../css/blog.module.css'
 import BlogCard from '../components/Blog/BlogCard'
 import Title from '../components/Home/Title/Title'
+import Seo from '../components/SEO/SEO'
 
 const BlogTemplate = (props) => {
   const { currentPage, numPages } = props.pageContext
@@ -17,6 +18,7 @@ const BlogTemplate = (props) => {
 
   return (
     <Layout>
+      <Seo title='Blogs' />
       <section className={styles.blog}>
         <Title title='latest' subTitle='posts' />
         <div className={styles.center}>

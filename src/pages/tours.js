@@ -4,10 +4,12 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import StyledHero from '../components/Layout/StyledHero/StyledHero'
 import Tours from '../components/Tours/Tours'
+import Seo from '../components/SEO/SEO'
 class TourPage extends Component {
   render () {
     return (
       <Layout className={this.props.className}>
+        <Seo title='Tours' />
         <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid}>
           <h1>TOurs</h1>
         </StyledHero>

@@ -18,7 +18,7 @@ const getData = graphql`
 
 const Seo = ({ title, description }) => {
   const { site } = useStaticQuery(getData)
-  const { siteTitle, siteDescription, author, siteUrl, image, twitterUsername } = site.siteMetadata
+  const { siteTitle, siteDescription, siteUrl, image, twitterUsername } = site.siteMetadata
 
   return (
     <Helmet htmlAttributes={{ lang: 'en' }} title={`${title}|${siteTitle}`}>

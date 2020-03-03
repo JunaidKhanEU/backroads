@@ -5,6 +5,7 @@ import styles from '../css/single-blog.module.css'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import StyledHero from '../components/Layout/StyledHero/StyledHero'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import Seo from '../components/SEO/SEO'
 
 const BlogTemplate = ({ data: { post } }) => {
   const { title, published, text: { json }, image } = post
@@ -14,6 +15,7 @@ const BlogTemplate = ({ data: { post } }) => {
       'embedded-asset-block': (node) => {
         return (
           <div className='rich'>
+            <Seo title={title} />
             <h3>Awesome Image</h3>
             <img width='' src={node.data.target.fields.file['en-US'].url} alt='awesome' />
             <p>provided by John Doe</p>
